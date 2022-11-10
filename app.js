@@ -7,4 +7,4 @@ const app = express()
 app.use(express.json())
 app.use(DeliveryRoute)
 
-app.listen(5600)
+app.listen(process.env.PORT)
